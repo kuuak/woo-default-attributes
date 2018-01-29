@@ -2,7 +2,7 @@
 /**
  * The Settings page of the plugin.
  *
- * @link       http://opusmagnum.ch
+ * @link       https://github.com/Kuuak/woo-default-attributes
  * @since      1.0.0
  *
  * @package    Woo_Default_Attributes
@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
  *
  * @package    Woo_Default_Attributes
  * @subpackage Woo_Default_Attributes/admin
- * @author     Felipe Paul Martins <fpm@opusmagnum.ch>
+ * @author     Kuuak
  */
 if ( !class_exists( 'WADT_Settings' ) ) {
 

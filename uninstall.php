@@ -3,9 +3,9 @@
  * Fired when the plugin is uninstalled.
  *
  * @package		Woo_Default_Attributes
- * @author		Felipe Paul Martins <fpm@opusmagnum.ch>
+ * @author		Kuuak
  * @license		GPL-2.0+
- * @link			http://opusmagnum.ch
+ * @link			https://github.com/Kuuak/woo-default-attributes
  */
 
 	// If uninstall not called from WordPress, then exit.

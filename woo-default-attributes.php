@@ -2,9 +2,9 @@
 /**
  * Plugin Name:		Woo Default Attributes
  * Description: 	Define default attributes to be automatically added in WooCommerce new product page.
- * Author: 				Felipe Paul Martins - Opus Magnum
+ * Author: 				Kuuak
  * Version: 			1.0.0
- * Author URI:		https://opusmagnum.ch
+ * Author URI:		https://github.com/Kuuak
  * License:				GPL-2.0+
  * License URI:		http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:		wdat
@@ -18,9 +18,9 @@
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  *
  * @package		Woo_Default_Attributes
- * @author		Felipe Paul Martins <fpm@opusmagnum.ch>
+ * @author		Kuuak
  * @license		GPL-2.0+
- * @link			https://opusmagnum.ch
+ * @link			https://github.com/Kuuak/woo-default-attributes
  */
 
 /* Prevent loading this file directly */
