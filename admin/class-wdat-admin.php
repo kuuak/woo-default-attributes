@@ -107,7 +107,7 @@ if ( !class_exists( 'WDAT_Admin' ) ) {
 							$return[ $attr_name ] = array(
 								'name'					=> $attr_name,
 								'value'					=> "",
-								'position'			=> "$1",
+								'position'			=> $i,
 								'is_visible'		=> 1,
 								'is_variation'	=> 0,
 								'is_taxonomy'		=> 1,
