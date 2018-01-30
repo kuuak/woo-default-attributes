@@ -2,10 +2,10 @@
 Contributors: Kuuak
 Tags: woocommerce, attribute, attributes, admin, administration
 Requires at least: 4.4
-Tested up to: 4.6.1
-Stable tag: 1.0.0
+Tested up to: 4.9.1
+Stable tag: 1.0.1
 Requires at least WooCommerce: 2.5
-Tested up to WooCommerce: 2.6.7
+Tested up to WooCommerce: 3.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,8 +13,7 @@ Define default attributes to be automatically added in WooCommerce new product p
 
 == Description ==
 
-After setting up WooCommerce and defining product attributes, you can width this plugin
-define the default attributes, as well as there order, to be automatically added to new product.
+After setting up WooCommerce and defining product attributes, you can define the default attributes, as well as there order, to be automatically added to new product.
 
 It will make the creation of new product more efficient and fast as you won't need
 to add manually the attributes, and remembering the same order for each new product.
@@ -27,12 +26,28 @@ to add manually the attributes, and remembering the same order for each new prod
 
 == Frequently Asked Questions ==
 
+= Why does the default attributes do not show in an already created product ? =
+
+This is a WooCommerce limitation.
+
+= Is this plugin kept up to date =
+
+I unfortunately didn't have much time to keep this plugin up to date in the pas year, but will now find some time to keep this updated.
+
+== Contribute ==
+
+Don't hesitate to fork this plugin and submit pull request at https://github.com/Kuuak/woo-default-attributes.
+
 == Screenshots ==
 
 1. Default attributes set for a new product
 2. Configuration of the default attributes
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix default attributes order. thanks to @Spinal for the fix.
+* Tested plugin with WordPress 4.9.2 and WooCommerce 3.2.6
 
 = 1.0.0 =
 * Initial release

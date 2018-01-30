@@ -4,7 +4,7 @@
  * Description: 	Define default attributes to be automatically added in WooCommerce new product page.
  * Author: 				Kuuak
  * Version: 			1.0.0
- * Author URI:		https://github.com/Kuuak
+ * Author URI:		https://wordpress.org/support/users/kuuak/
  * License:				GPL-2.0+
  * License URI:		http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:		wdat
