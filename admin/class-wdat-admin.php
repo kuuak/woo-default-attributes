@@ -95,9 +95,6 @@ if ( !class_exists( 'WDAT_Admin' ) ) {
 
 			if ( '_product_attributes' == $meta_key && is_admin() && function_exists('get_current_screen') ) {
 
-				$screen = get_current_screen();
-				if ( 'add' === $screen->action ) {
-
 					$attrs = get_option( 'wdat_attributes' );
 					if ( !empty( $attrs ) ) {
 
@@ -116,7 +113,6 @@ if ( !class_exists( 'WDAT_Admin' ) ) {
 
 						$value = array($return);
 					}
-				}
 			}
 
 			return $value;
