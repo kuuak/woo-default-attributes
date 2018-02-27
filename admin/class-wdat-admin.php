@@ -93,7 +93,7 @@ if ( !class_exists( 'WDAT_Admin' ) ) {
 		 */
 		public function get_post_metadata( $value, $object_id, $meta_key ) {
 
-			if ( '_product_attributes' == $meta_key && is_admin() ) {
+			if ( '_product_attributes' == $meta_key && is_admin() && function_exists('get_current_screen') ) {
 
 				$screen = get_current_screen();
 				if ( 'add' === $screen->action ) {
