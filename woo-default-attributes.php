@@ -134,5 +134,6 @@ if ( !class_exists( 'Woo_Default_Attributes' ) ) {
 		}
 	}
 }
-
+if ( class_exists( 'WooCommerce' ) ) {
 new Woo_Default_Attributes();
+}
