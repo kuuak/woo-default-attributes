@@ -134,6 +134,6 @@ if ( !class_exists( 'Woo_Default_Attributes' ) ) {
 		}
 	}
 }
-if ( class_exists( 'WooCommerce' ) ) {
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 new Woo_Default_Attributes();
 }
