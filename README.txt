@@ -3,9 +3,9 @@ Contributors: Kuuak
 Tags: woocommerce, attribute, attributes, admin, administration
 Requires at least: 4.4
 Tested up to: 4.9.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires at least WooCommerce: 2.5
-Tested up to WooCommerce: 3.3.1
+Tested up to WooCommerce: 3.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ After setting up WooCommerce and defining product attributes, you can define the
 It will make the creation of new product more efficient and fast as you won't need
 to add manually the attributes, and remembering the same order for each new product.
 
-**Tested with WooCommerce version 3.3.1**
+**Tested with WooCommerce version 3.3.3**
 
 == Installation ==
 
@@ -46,6 +46,10 @@ Don't hesitate to fork this plugin and submit pull requests in the [github repo]
 2. Configuration of the default attributes
 
 == Changelog ==
+
+= 1.0.3 =
+* Fix a 500 server error on ajax request. Thanks @aminta, @walpap and @zluke for the bug report
+* Do no init the plugin if WooCommerce is not enabled. Thanks @adryyy for the pull request
 
 = 1.0.2 =
 * Tested plugin with WordPress 4.9.4 and WooCommerce 3.3.1
