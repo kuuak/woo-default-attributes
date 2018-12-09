@@ -3,7 +3,7 @@ Contributors: Kuuak
 Tags: woocommerce, attribute, attributes, admin, administration
 Requires at least: 4.4
 Tested up to: 4.9.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 Requires at least WooCommerce: 2.5
 Tested up to WooCommerce: 3.3.3
 License: GPLv2 or later
@@ -46,6 +46,9 @@ Don't hesitate to fork this plugin and submit pull requests in the [github repo]
 2. Configuration of the default attributes
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix PHP notice when $screen is not available. Thanks @JeroenSormani for the fix
 
 = 1.0.3 =
 * Fix a 500 server error on ajax request. Thanks @aminta, @walpap and @zluke for the bug report
