@@ -68,6 +68,17 @@ if ( !class_exists( 'Woo_Default_Attributes' ) ) {
 		 */
 		protected $dir_uri;
 
+
+		/**
+		 * The name of the plugin used to uniquely identify it within the 
+		 * context of WordPress and to define internationalization functionality.
+		 *
+		 * @since  1.0.5
+		 * @access protected
+		 * @var	   string    $plugin_name The name of the plugin.
+		 */
+		protected $plugin_name;
+
 		/**
 		 * Class Constructor.
 		 *
